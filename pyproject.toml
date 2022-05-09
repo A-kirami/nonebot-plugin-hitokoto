@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-hitokoto"
-version = "0.1.0"
+version = "0.2.0"
 description = "One sentence a day in Nonebot2"
 authors = [
     {name = "Akirami", email = "Akiramiaya@outlook.com"},
