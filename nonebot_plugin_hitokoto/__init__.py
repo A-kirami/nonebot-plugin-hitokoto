@@ -4,8 +4,9 @@ from nonebot.adapters import Message
 from nonebot.matcher import Matcher
 from nonebot.params import CommandArg
 
+hitokoto_matcher = on_command("一言", aliases={"一句"})
 
-@on_command("一言", aliases={"一句"}).handle()
+@hitokoto_matcher.handle()
 async def hitokoto(matcher: Matcher, args: Message = CommandArg()):
     if args:
         return
